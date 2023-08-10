@@ -1,0 +1,23 @@
+name: Test Compilazione # Action name
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download file della Repo
+        uses: actions/checkout@v3.5.3
+      - name: Compilazione del file della Relazione
+        uses: xu-cheng/latex-action@v2
+        with: # insert here files to compile
+          working_directory: Buisness_card
+          root_file: Buisness_card.tex
+      - name: Ridenominazione files
+        run: mv Buisness_card/Buisness_card.pdf Buisness_card/Biglietto_da_visita.pdf
+      - name: Caricamento della Release temporanea
+        uses: actions/upload-artifact@v3
+        with: 
+          name: Biglietto_da_visita
+          path: Buisness_card/Biglietto_da_visita.pdf
