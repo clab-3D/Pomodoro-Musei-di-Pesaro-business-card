@@ -30,11 +30,16 @@
 		\foreach \j in {0,1,2} \draw[very thin, gray,dashed] (\j*\cardw,0) -- (\j*\cardw,5*\cardh);
 		% card content
 		\foreach \i in {0,1} \foreach \j in {0,1,2,3,4} {
+			
 			\node at (\i*\cardw+0.2\cardw,\j*\cardh+0.5\cardh) {\includegraphics[width=0.3\cardw]{Pomodoro-Musei-di-Pesaro-QR.png}};
-			% center text
+
 			\node[black!25!gray] at (\i*\cardw+0.50\cardw,\j*\cardh+0.85\cardh) {\Large \textbf{Pomodoro musei di Pesaro}};
-			\node at (\i*\cardw+0.53\cardw,\j*\cardh+0.45\cardh) {Area Descrizione};
-			\node at (\i*\cardw+0.50\cardw,\j*\cardh+0.2\cardh) {Telefono};
+			
+			\node at (\i*\cardw+0.53\cardw,\j*\cardh+0.65\cardh) {\textbf{Quando}};
+			\node at (\i*\cardw+0.53\cardw,\j*\cardh+0.59\cardh) {\textbf{l'arte}};
+			\node at (\i*\cardw+0.53\cardw,\j*\cardh+0.53\cardh) {\textbf{incontra}};
+			\node at (\i*\cardw+0.53\cardw,\j*\cardh+0.47\cardh) {\textbf{l'informatica}};
+			\node at (\i*\cardw+0.50\cardw,\j*\cardh+0.2\cardh) {-Telefono-};
 			\node at (\i*\cardw+0.50\cardw,\j*\cardh+0.1\cardh) {alice.balestieri@gmail.com};
 			
 			\node at (\i*\cardw+0.85\cardw,\j*\cardh+0.5\cardh) {\includegraphics[width=0.3\cardw]{Pomodoro_Logo.png}};
