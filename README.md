@@ -53,4 +53,14 @@ This work is licensed under a
 
 # Contributors
 <!-- readme: collaborators,contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/R0mb0">
+            <img src="https://avatars.githubusercontent.com/u/72658034?v=4" width="100;" alt="R0mb0"/>
+            <br />
+            <sub><b>Francesco Rombaldoni</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: collaborators,contributors -end -->
