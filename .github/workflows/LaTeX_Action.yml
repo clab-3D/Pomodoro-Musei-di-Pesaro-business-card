@@ -10,7 +10,7 @@ jobs:
       - name: Download file della Repo
         uses: actions/checkout@v3.5.3
       - name: Compilazione del file della Relazione
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with: # insert here files to compile
           working_directory: Buisness_card
           root_file: Buisness_card.tex
