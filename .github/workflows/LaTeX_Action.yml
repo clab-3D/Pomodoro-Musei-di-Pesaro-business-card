@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download file della Repo
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.0
       - name: Compilazione del file della Relazione
         uses: xu-cheng/latex-action@v3
         with: # insert here files to compile
