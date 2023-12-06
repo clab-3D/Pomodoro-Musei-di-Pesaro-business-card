@@ -44,12 +44,6 @@ This work is licensed under a
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ---
-<!--
-# Authors
--   Alice Balestieri
--   Francesco Rombaldoni
-
---- -->
 
 # Contributors
 <!-- readme: collaborators,contributors -start -->
@@ -62,12 +56,6 @@ This work is licensed under a
             <sub><b>Francesco Rombaldoni</b></sub>
         </a>
     </td>
-    <td align="center">
-        <a href="https://github.com/r0s4dip3sar0">
-            <img src="https://avatars.githubusercontent.com/u/130976709?v=4" width="100;" alt="r0s4dip3sar0"/>
-            <br />
-            <sub><b>Alice Balestieri</b></sub>
-        </a>
-    </td></tr>
+    </tr>
 </table>
 <!-- readme: collaborators,contributors -end -->
