@@ -17,7 +17,7 @@ jobs:
       - name: Ridenominazione files
         run: mv Buisness_card/Buisness_card.pdf Buisness_card/Biglietto_da_visita.pdf
       - name: Caricamento della Release temporanea
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with: 
           name: Biglietto_da_visita
           path: Buisness_card/Biglietto_da_visita.pdf
